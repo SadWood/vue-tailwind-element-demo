@@ -6,6 +6,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     './src/**/*.jsx'
     // etc.
   ],
+  // 添加element-ui为白名单
   whitelistPatterns: [/el-.+$/],
   whitelistPatternsChildren: [/el-.+$/],
   // Include any special characters you're using in this regular expression
