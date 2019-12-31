@@ -23,9 +23,9 @@ export default {
     HelloWorld
   },
   mounted() {
-    this.$http.get('/api/arknights/index').then(response => {
-      console.log(response.data)
-    })
+    // this.$http.get('/api/arknights/index').then(response => {
+    //   console.log(response.data)
+    // })
   }
 }
 </script>
