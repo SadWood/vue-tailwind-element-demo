@@ -9,6 +9,10 @@
       </p>
       <el-button>el-button</el-button>
     </div>
+    <button class="btn mt-1">
+      tailwind-button
+    </button>
+    <br />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
@@ -29,3 +33,25 @@ export default {
   }
 }
 </script>
+
+<style lang="postcss">
+.btn {
+  @apply font-medium rounded px-4 py-2 bg-white text-gray-600 border border-solid border-gray-300;
+}
+
+.btn:hover {
+  @apply bg-blue-100 border-blue-200 text-blue-400;
+}
+
+@screen md {
+  .btn {
+    @apply px-3 py-2 text-base;
+  }
+}
+
+@screen xl {
+  .btn {
+    @apply px-4 py-3 text-lg;
+  }
+}
+</style>

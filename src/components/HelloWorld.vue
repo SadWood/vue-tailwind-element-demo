@@ -8,7 +8,7 @@
         >vue-cli documentation</a
       >.
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <Headline :level="3" :size="5">Installed CLI Plugins</Headline>
     <ul>
       <li>
         <a
@@ -111,10 +111,14 @@
 </template>
 
 <script>
+import Headline from './Headline'
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  components: {
+    Headline
   }
 }
 </script>
