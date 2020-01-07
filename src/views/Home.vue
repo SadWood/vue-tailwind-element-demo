@@ -51,7 +51,7 @@ export default {
 
 @screen xl {
   .btn {
-    @apply px-4 py-3 text-lg;
+    @apply px-4 py-2 text-base;
   }
 }
 </style>
