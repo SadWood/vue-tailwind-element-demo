@@ -36,7 +36,7 @@ export default {
 
 <style lang="postcss">
 .btn {
-  @apply font-medium rounded px-4 py-2 bg-white text-gray-600 border border-solid border-gray-300;
+  @apply font-medium rounded px-4 py-2 bg-white text-gray-700 border border-solid border-gray-300;
 }
 
 .btn:hover {

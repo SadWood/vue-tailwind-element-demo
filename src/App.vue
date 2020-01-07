@@ -17,6 +17,11 @@ export default {
 
 <style lang="postcss">
 #app {
-  @apply text-gray-700 font-sans antialiased text-center pt-16 min-h-screen flex flex-col flex-no-wrap;
+  @apply text-gray-700 font-mono antialiased text-center pt-16 min-h-screen flex flex-col flex-no-wrap;
 }
+</style>
+
+<style lang="stylus">
+#app
+  font-size 1.125rem
 </style>
