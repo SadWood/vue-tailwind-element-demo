@@ -54,4 +54,8 @@ export default {
     @apply px-4 py-2 text-base;
   }
 }
+
+button:focus {
+  @apply outline-none !important;
+}
 </style>
