@@ -4,6 +4,6 @@
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
-.router-actived {
+.router-activated {
   @apply text-green-600 font-bold;
 }
