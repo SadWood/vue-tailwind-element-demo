@@ -7,6 +7,7 @@
 3. Tailwind CSS IntelliSense
 4. vscode-element-helper
 5. PostCSS Language Support
+6. Code Spell Checker
 
 ## Project setup
 
