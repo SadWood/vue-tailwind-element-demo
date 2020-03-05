@@ -39,20 +39,21 @@ export default {
   @apply font-medium rounded bg-white text-gray-700 border border-solid border-gray-300;
 
   /* 可以使用类似Sass的嵌套语法 */
-  &:hover {
+  &:hover,
+  &:focus {
     @apply bg-blue-100 border-blue-200 text-blue-400;
   }
 }
 
 @screen md {
   .btn {
-    @apply px-3 py-2 text-base;
+    @apply px-5 py-2 text-sm;
   }
 }
 
 @screen xl {
   .btn {
-    @apply px-4 py-2 text-base;
+    @apply px-5 py-2 text-sm;
   }
 }
 
