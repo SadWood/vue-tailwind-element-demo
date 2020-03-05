@@ -1,13 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/" active-class="router-activated" exact
-        >Home</router-link
-      >
+      <router-link to="/" active-class="router-activated" exact>Home</router-link>
       |
-      <router-link to="/about" active-class="router-activated"
-        >About</router-link
-      >
+      <router-link to="/about" active-class="router-activated">About</router-link>
     </div>
     <router-view />
   </div>
