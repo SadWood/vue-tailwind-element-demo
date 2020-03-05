@@ -34,13 +34,14 @@ export default {
 }
 </script>
 
-<style lang="postcss">
+<style scoped lang="postcss">
 .btn {
-  @apply font-medium rounded px-4 py-2 bg-white text-gray-700 border border-solid border-gray-300;
-}
+  @apply font-medium rounded bg-white text-gray-700 border border-solid border-gray-300;
 
-.btn:hover {
-  @apply bg-blue-100 border-blue-200 text-blue-400;
+  /* 可以使用类似Sass的嵌套语法 */
+  &:hover {
+    @apply bg-blue-100 border-blue-200 text-blue-400;
+  }
 }
 
 @screen md {
