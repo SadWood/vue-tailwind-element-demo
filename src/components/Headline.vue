@@ -36,8 +36,6 @@ export default {
       required: true,
       type: Number,
       validator(value) {
-        // Here PurgeCSS picks ob the selectors and
-        // does not remove their styles from the CSS.
         const headlines = [`h1`, `h2`, `h3`, `h4`, `h5`, `h6`]
         return headlines.includes(`h${value}`)
       }
