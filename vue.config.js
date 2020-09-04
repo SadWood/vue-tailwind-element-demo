@@ -1,9 +1,9 @@
 module.exports = {
   productionSourceMap: false,
 
-  devServer: {
-    proxy: 'http://api.fullerbody.com'
-  },
+  // devServer: {
+  //   proxy: 'http://localhost:8080'
+  // },
 
   publicPath: '',
 
